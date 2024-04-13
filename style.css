@@ -1,0 +1,56 @@
+#heydude
+{
+    color: azure;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    position: fixed;
+    top: 20px;
+}
+
+[data-testid="stWidgetLabel"]
+{
+    color: antiquewhite;
+}
+
+[data-testid="stMarkdownContainer"]
+{
+    color: dimgray;
+}
+
+[data-testid="stAppViewContainer"]{
+    background-image: url("https://gumlet-images.assettype.com/afaqs%2F2022-07%2F70a5d7a2-2db6-42b0-bc01-23cd6b59d621%2Ffelix_mooneeram_evlkOfkQ5rE_unsplash.jpg?format=webp&w=480&dpr=2.6");
+    background-size: cover;
+
+}
+
+
+
+[data-testid="element-container"]
+{
+    color: azure;
+    font-size: xxx-large;
+    font-family: "Javanese Text";
+}
+
+[data-testid="stHorizontalBlock"]
+{
+    position: sticky;
+}
+
+.button [data-testid="stMarkdownContainer"]
+{
+    color: dimgray;
+}
+
+@media (max-width:799px)
+{
+    [data-testid="element-container"]
+{
+    color: azure;
+    font-size: 30px;
+    font-family: "Javanese Text";
+}
+}
